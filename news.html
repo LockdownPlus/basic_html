@@ -1,0 +1,134 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Lockdown+ News</title>
+		<meta name="description" content="Nagbabagang Balita by Lockdown+">
+		<meta name="keywords" content="news for lockdown, web dev news, lockdown plus">
+		<style>
+			body {
+				margin: 0;
+			}
+			#main-header {
+				text-align: center;
+				background-color: black;
+				color: white;
+				padding: 10px;
+			}
+			#main-navigation ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+				#main-navigation ul li {
+					display: inline-block;
+					color: white;
+					margin-top: 5px;
+				}
+				#main-navigation a {
+					color: white;
+					background-color: gray;
+					padding: 5px 10px;
+					text-decoration: none;
+				}
+				#main-navigation a:hover {
+					background-color: black;
+				}
+				#main-navigation li.active a {
+					background-color: black;
+				}
+				
+				
+			#main-content {
+				padding: 10px;
+				overflow: hidden;
+			}
+				#contents {
+					float: left;
+					width: 60%;
+					padding: 10px;
+					border: 1px solid red;
+				}
+					.article-item {
+						border-bottom: 1px solid gray;
+					}
+
+				#main-aside {
+					float: right;
+					width: 30%;
+					padding: 10px;
+					border: 1px solid green;
+				}
+			/* this is for Footer elemet  */
+			#main-footer {
+				text-align: center;
+				font-size: 18px;
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- header -->
+		<header id="main-header">
+			<h1>Lockdown+ News</h1>
+		</header>
+
+		<nav id="main-navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="#">News</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+
+		<!-- section -->
+		<section id="main-content">
+
+			<div id="contents">
+				<!-- article -->
+				<article class="article-item">
+					<h3>News One</h3>
+					<small>Posted by DotZat on Jan 18, 2020</small>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, aliquid maiores itaque quos iusto nisi exercitationem...
+					</p>
+				</article>
+
+				<!-- article -->
+				<article class="article-item">
+					<h3>News Two</h3>
+					<small>Posted by DotZat on Jan 1, 2020</small>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, aliquid maiores itaque quos iusto nisi exercitationem...
+					</p>
+				</article>
+
+				<!-- article -->
+				<article class="article-item">
+					<h3>News Three</h3>
+					<small>Posted by DotZat on Dec 20, 2019</small>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, aliquid maiores itaque quos iusto nisi exercitationem...
+					</p>
+				</article>
+			</div>
+
+			<!-- aside -->
+			<aside id="main-aside">
+				<h3>Categories</h3>
+				<nav>
+					<ul>
+						<li>Category 1</li>
+						<li>Category 2</li>
+						<li>Category 3</li>
+					</ul>
+				</nav>
+			</aside>
+
+		</section> <!-- end section -->
+
+		<!-- footer -->
+		<footer id="main-footer">
+			<p>Copyright &copy; 2020, Lockdown+ | DotZar </p>
+		</footer>
+	</body>
+</html>
