@@ -20,6 +20,8 @@ FOLLOW US:
 
 http://facebook.com/lockdownplus
 
+https://www.instagram.com/lockdownplus/
+
 
 HIRE US:
 
